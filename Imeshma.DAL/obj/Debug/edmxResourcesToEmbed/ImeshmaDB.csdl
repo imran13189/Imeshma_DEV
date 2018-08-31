@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ImeshmaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ImeshmaEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GetProductDetails_Result">
+    <Property Type="Int64" Name="ProductId" Nullable="false" />
+    <Property Type="String" Name="ProductName" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="ProductPrice" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OldPrice" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OfferBadge" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Imeshma.WEB", "Imeshma.WEB\", "{551FB34A-9A1C-4DD7-9272-C1C7FACBDED3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_48060"
+		Debug.AspNetCompiler.PhysicalPath = "Imeshma.WEB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48060\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_48060"
+		Release.AspNetCompiler.PhysicalPath = "Imeshma.WEB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_48060\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "48060"
+		SlnRelativePath = "Imeshma.WEB\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imeshma.BAL", "Imeshma.BAL\Imeshma.BAL.csproj", "{44B46F67-494F-4E24-AF50-78304C67744A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imeshma.DAL", "Imeshma.DAL\Imeshma.DAL.csproj", "{2F404859-EA2F-485A-946B-96B896EC5221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imeshma.API", "Imeshma.API\Imeshma.API.csproj", "{30C4A1C5-B7C9-4432-B6E8-64D87DD9C070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imeshma.Entity", "Imeshma.Entity\Imeshma.Entity.csproj", "{E5753BA1-2890-46F9-9BDE-5997942A6B03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{551FB34A-9A1C-4DD7-9272-C1C7FACBDED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551FB34A-9A1C-4DD7-9272-C1C7FACBDED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551FB34A-9A1C-4DD7-9272-C1C7FACBDED3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{551FB34A-9A1C-4DD7-9272-C1C7FACBDED3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{44B46F67-494F-4E24-AF50-78304C67744A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B46F67-494F-4E24-AF50-78304C67744A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B46F67-494F-4E24-AF50-78304C67744A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B46F67-494F-4E24-AF50-78304C67744A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F404859-EA2F-485A-946B-96B896EC5221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F404859-EA2F-485A-946B-96B896EC5221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F404859-EA2F-485A-946B-96B896EC5221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F404859-EA2F-485A-946B-96B896EC5221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C4A1C5-B7C9-4432-B6E8-64D87DD9C070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C4A1C5-B7C9-4432-B6E8-64D87DD9C070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C4A1C5-B7C9-4432-B6E8-64D87DD9C070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C4A1C5-B7C9-4432-B6E8-64D87DD9C070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5753BA1-2890-46F9-9BDE-5997942A6B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5753BA1-2890-46F9-9BDE-5997942A6B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5753BA1-2890-46F9-9BDE-5997942A6B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5753BA1-2890-46F9-9BDE-5997942A6B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {711DD3BA-1940-43F4-935A-796D60DB74B8}
+	EndGlobalSection
+EndGlobal

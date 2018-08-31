@@ -1,0 +1,12 @@
+E:\Imeshma\Imeshma.DAL\bin\Release\Imeshma.DAL.dll.config
+E:\Imeshma\Imeshma.DAL\bin\Release\Imeshma.DAL.dll
+E:\Imeshma\Imeshma.DAL\bin\Release\Imeshma.DAL.pdb
+E:\Imeshma\Imeshma.DAL\bin\Release\EntityFramework.dll
+E:\Imeshma\Imeshma.DAL\bin\Release\EntityFramework.SqlServer.dll
+E:\Imeshma\Imeshma.DAL\bin\Release\Imehsma.Entity.dll
+E:\Imeshma\Imeshma.DAL\bin\Release\Imehsma.Entity.pdb
+E:\Imeshma\Imeshma.DAL\bin\Release\EntityFramework.xml
+E:\Imeshma\Imeshma.DAL\bin\Release\EntityFramework.SqlServer.xml
+E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.csprojResolveAssemblyReference.cache
+E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.dll
+E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.pdb
