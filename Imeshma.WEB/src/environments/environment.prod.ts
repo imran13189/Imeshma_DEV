@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseUrl: 'https://imeshma-001-site1.gtempurl.com'
 };
