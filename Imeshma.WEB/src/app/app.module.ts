@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterareaComponent } from './footerarea/footerarea.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShopComponent } from './shop/shop.component';
+import { ProductgridComponent } from './productgrid/productgrid.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ShopComponent } from './shop/shop.component';
     HeaderComponent,
     FooterareaComponent,
     MainpageComponent,
-    ShopComponent
+    ShopComponent,
+    ProductgridComponent
   ],
     imports: [
       RouterModule,
