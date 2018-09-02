@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http'; 
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,6 +11,7 @@ import { FooterareaComponent } from './footerarea/footerarea.component';
 import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductgridComponent } from './productgrid/productgrid.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ProductgridComponent } from './productgrid/productgrid.component';
     FooterareaComponent,
     MainpageComponent,
     ShopComponent,
-    ProductgridComponent
+    ProductgridComponent,
+    ProductdetailsComponent
   ],
     imports: [
       RouterModule,
     BrowserModule,
-    AppRoutingModule
+      AppRoutingModule,
+      HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

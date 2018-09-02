@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://imeshma-001-site1.gtempurl.com'
+  baseUrl: 'http://imeshma-001-site1.gtempurl.com'
 };
 
 /*
