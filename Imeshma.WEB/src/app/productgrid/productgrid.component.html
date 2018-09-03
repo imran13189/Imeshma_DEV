@@ -28,40 +28,42 @@
 
             <!-- Single Product -->
             <div  *ngFor="let product of products" class="col-12 col-sm-6 col-lg-3"  >
-                <a target="_blank" href="/productdetails">
-                    <div class="single-product-wrapper">
-                        <!-- Product Image -->
-                        <div class="product-img">
-                            <img src="assets/{{product.ProductImageUrl}}" alt="">
-                            <!-- Hover Thumb -->
-                            <img class="hover-img" src="img/product-img/product-2.jpg" alt="">
+              <a href="{{product.ProductUrl}}" target="_blank">
+                <div class="single-product-wrapper">
+                  <!-- Product Image -->
 
-                            <!-- Product Badge -->
-                            <div class="product-badge offer-badge">
-                                <span>{{product.OfferBadge}}</span>
-                            </div>
-                            <!-- Favourite -->
-                            <div class="product-favourite">
-                                <a href="#" class="favme fa fa-heart"></a>
-                            </div>
-                        </div>
+                  <div class="product-img">
+                    <img src="{{product.ProductImageUrl}}" alt="">
+                    <!-- Hover Thumb -->
+                    <img class="hover-img" src="img/product-img/product-2.jpg" alt="">
 
-                        <!-- Product Description -->
-                        <div class="product-description">
-                            <span>topshop</span>
-                            <a href="single-product-details.html">
-                                <h6>{{product.ProductName}}</h6>
-                            </a>
-                            <p class="product-price"><span class="old-price">{{product.OldPrice}}</span>{{product.ProductPrice}}</p>
+                    <!-- Product Badge -->
+                    <div class="product-badge offer-badge">
+                      <span>{{product.OfferBadge}}</span>
+                    </div>
+                    <!-- Favourite -->
+                    <div class="product-favourite">
+                      <a href="#" class="favme fa fa-heart"></a>
+                    </div>
+                  </div>
 
-                            <!-- Hover Content -->
-                            <div class="hover-content">
-                                <!-- Add to Cart -->
-                                <div class="add-to-cart-btn">
-                                    <a class="btn essence-btn">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
+                  <!-- Product Description -->
+                  <div class="product-description">
+                    <span>topshop</span>
+                    <a href="single-product-details.html">
+                      <h6>{{product.ProductName}}</h6>
+                    </a>
+                    <p class="product-price"><span class="old-price">{{product.OldPrice}}</span>{{product.ProductPrice}}</p>
+
+                    <!-- Hover Content -->
+                    <div class="hover-content">
+                      <!-- Add to Cart -->
+                      <div class="add-to-cart-btn">
+                        <a class="btn essence-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+              
                     </div>
                 </a>
             </div>

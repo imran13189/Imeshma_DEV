@@ -7,20 +7,24 @@ using System.Threading.Tasks;
 using Imeshma.DAL.Interfaces;
 using Imeshma.DAL.Repositroy;
 using Imeshma.Entity;
+using Imeshma.DAL;
 
 namespace Imeshma.BAL.Services
 {
-    public class ProductService :IProductService
+    public class ProductService : IProductService
     {
         IProductRepo _productRepo;
         public ProductService()
         {
             _productRepo = new ProductRepo();
         }
-        public List<Product> GetProductDetails()
+        public List<Products> GetProductDetails()
         {
             return _productRepo.GetProductDetails();
         }
-
+        public void SaveProducts(List<Product> products)
+        {
+            _productRepo.SaveProducts(products);
+        }
     }
 }

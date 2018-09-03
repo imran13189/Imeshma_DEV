@@ -23,3 +23,17 @@ E:\Projects\ImeshmaAngular\Imeshma.BAL\bin\Debug\Imeshma.DAL.dll.config
 E:\Projects\ImeshmaAngular\Imeshma.BAL\bin\Debug\Imeshma.Entity.pdb
 E:\Projects\ImeshmaAngular\Imeshma.BAL\bin\Debug\EntityFramework.xml
 E:\Projects\ImeshmaAngular\Imeshma.BAL\obj\Debug\Imeshma.BAL.csproj.CopyComplete
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Debug\Imeshma.BAL.csprojAssemblyReference.cache
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Debug\Imeshma.BAL.csproj.CoreCompileInputs.cache
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Debug\Imeshma.BAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Debug\Imeshma.BAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.BAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.BAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\EntityFramework.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.DAL.dll.config
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\Imeshma.Entity.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Debug\EntityFramework.xml
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Debug\Imeshma.BAL.csproj.CopyComplete

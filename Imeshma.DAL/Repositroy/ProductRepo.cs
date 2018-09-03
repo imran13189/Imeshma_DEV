@@ -21,9 +21,9 @@ namespace Imeshma.DAL.Repositroy
         }
 
 
-        public List<Product> GetProductDetails()
+        public List<Products> GetProductDetails()
         {
-            List<Product> _productList;
+            List<Products> _productList;
             try
             {
                
@@ -46,7 +46,7 @@ namespace Imeshma.DAL.Repositroy
                     //});
                     _reader = _dbCmd.ExecuteReader();
 
-                    _productList = ((IObjectContextAdapter)_db).ObjectContext.Translate<Product>(_reader).ToList();
+                    _productList = ((IObjectContextAdapter)_db).ObjectContext.Translate<Products>(_reader).ToList();
 
                 }
             }
@@ -66,5 +66,13 @@ namespace Imeshma.DAL.Repositroy
        
 
         }
+
+        public void SaveProducts(List<Product> products)
+        {
+            ImeshmaEntities _db = new ImeshmaEntities();
+            _db.Products.AddRange(products);
+            _db.SaveChanges();
+        }
+
     }
 }

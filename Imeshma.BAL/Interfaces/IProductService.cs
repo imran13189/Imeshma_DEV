@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Imeshma.Entity;
+using Imeshma.DAL;
 namespace Imeshma.BAL.Interfaces
 {
     public interface IProductService
     {
-        List<Product> GetProductDetails();
-       
+        List<Products> GetProductDetails();
+
+        void SaveProducts(List<Product> products);
     }
 }

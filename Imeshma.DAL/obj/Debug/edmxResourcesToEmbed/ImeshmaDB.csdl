@@ -2,6 +2,7 @@
 <Schema Namespace="ImeshmaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="ImeshmaEntities" annotation:LazyLoadingEnabled="true">
     <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)" />
+    <EntitySet Name="Products" EntityType="ImeshmaModel.Product" />
   </EntityContainer>
   <ComplexType Name="GetProductDetails_Result">
     <Property Type="Int64" Name="ProductId" Nullable="false" />
@@ -12,4 +13,19 @@
     <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
     <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
   </ComplexType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="ProductName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="ProductPrice" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="OldPrice" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OfferBadge" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ProductImageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ProductUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

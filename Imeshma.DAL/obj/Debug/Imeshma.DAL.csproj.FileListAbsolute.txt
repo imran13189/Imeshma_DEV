@@ -24,3 +24,17 @@ E:\Projects\ImeshmaAngular\Imeshma.DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\Projects\ImeshmaAngular\Imeshma.DAL\obj\Debug\Imeshma.DAL.csproj.CopyComplete
 E:\Projects\ImeshmaAngular\Imeshma.DAL\obj\Debug\Imeshma.DAL.dll
 E:\Projects\ImeshmaAngular\Imeshma.DAL\obj\Debug\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\Imeshma.DAL.dll.config
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\EntityFramework.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\Imeshma.Entity.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\EntityFramework.xml
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Debug\Imeshma.DAL.csprojAssemblyReference.cache
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Debug\Imeshma.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Debug\Imeshma.DAL.csproj.CopyComplete
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Debug\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Debug\Imeshma.DAL.pdb

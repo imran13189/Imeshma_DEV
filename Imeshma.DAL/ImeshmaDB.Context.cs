@@ -27,6 +27,7 @@ namespace Imeshma.DAL
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Product> Products { get; set; }
     
         public virtual ObjectResult<GetProductDetails_Result> GetProductDetails()
         {
