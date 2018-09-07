@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   //baseUrl: 'http://imeshma-001-site1.gtempurl.com'
-  baseUrl: 'http://localhost:51482/'
+  baseUrl: 'http://localhost/Imeshma.API/'
 };
 
 /*

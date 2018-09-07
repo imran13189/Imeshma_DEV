@@ -13,7 +13,7 @@ export class DataService {
   }
   getProductDetails(category: string) {
     debugger;
-        let url = environment.baseUrl + '/api/Product/GetProductDetails';
+        let url = environment.baseUrl + '/api/ProductAPI/GetProductDetails?search='+category;
         return this.http.get(url);
     }
 }

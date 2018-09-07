@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ImeshmaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="ImeshmaEntities" annotation:LazyLoadingEnabled="true">
-    <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)" />
+    <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)">
+      <Parameter Name="search" Mode="In" Type="String" />
+    </FunctionImport>
     <EntitySet Name="Products" EntityType="ImeshmaModel.Product" />
   </EntityContainer>
   <ComplexType Name="GetProductDetails_Result">

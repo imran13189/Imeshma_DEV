@@ -21,7 +21,7 @@ namespace Imeshma.DAL.Repositroy
         }
 
 
-        public List<Products> GetProductDetails()
+        public List<Products> GetProductDetails(string search)
         {
             List<Products> _productList;
             try
@@ -36,14 +36,14 @@ namespace Imeshma.DAL.Repositroy
                     _dbCmd.CommandText = "GetProductDetails";
                     _dbCmd.CommandType = CommandType.StoredProcedure;
                     _dbCmd.CommandTimeout = 60 * 5;
-                    //_dbCmd.Parameters.AddRange(new SqlParameter[] {
-                    //     new SqlParameter("@Drugname",DrugName ),
-                    //     new SqlParameter("@CountryId",CountryId ),
-                    //     new SqlParameter("@UserId",UserID ),
-                    //         new SqlParameter("@IsMedicine",IsMedicine)
+                    _dbCmd.Parameters.AddRange(new SqlParameter[] {
+                         new SqlParameter("@search",search )
+                         //new SqlParameter("@CountryId",CountryId ),
+                         //new SqlParameter("@UserId",UserID ),
+                         //    new SqlParameter("@IsMedicine",IsMedicine)
 
 
-                    //});
+                    });
                     _reader = _dbCmd.ExecuteReader();
 
                     _productList = ((IObjectContextAdapter)_db).ObjectContext.Translate<Products>(_reader).ToList();

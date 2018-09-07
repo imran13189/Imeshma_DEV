@@ -8,7 +8,7 @@ namespace Imeshma.DAL.Interfaces
 {
     public  interface IProductRepo
     {
-        List<Products> GetProductDetails();
+        List<Products> GetProductDetails(string search);
 
         void SaveProducts(List<Product> products);
 

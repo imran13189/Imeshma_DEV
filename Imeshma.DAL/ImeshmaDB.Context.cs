@@ -29,9 +29,13 @@ namespace Imeshma.DAL
     
         public virtual DbSet<Product> Products { get; set; }
     
-        public virtual ObjectResult<GetProductDetails_Result> GetProductDetails()
+        public virtual ObjectResult<GetProductDetails_Result> GetProductDetails(string search)
         {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetProductDetails_Result>("GetProductDetails");
+            var searchParameter = search != null ?
+                new ObjectParameter("search", search) :
+                new ObjectParameter("search", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetProductDetails_Result>("GetProductDetails", searchParameter);
         }
     }
 }

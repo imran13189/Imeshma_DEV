@@ -1,14 +1,59 @@
 ﻿@Html.Raw(ViewBag.HTML)
 
 <script>
-    $(document).ready(function () {
+    //$(document).ready(function () {
 
+    //    var products = [];
+    //    debugger;
+    //    var today = new Date().toJSON().slice(0, 10);
+
+    //    $("#product_list .row").each(function (i, item) {
+           
+    //        var name = $(item).find("h2").html();
+    //        var image = $(item).find("img").attr('src');
+    //        var oldprice = $(item).find(".old_prices span").html();
+    //        var OfferBadge = $(item).find(".prd_discount").html();
+    //        var price = $(item).find(".p_price").html();
+    //        var produrl = $(item).find("a:nth-child(2)").attr('href');
+    //        var pid = $(item).find("a:nth-child(1)").attr('pid');
+    //        debugger;
+    //        products.push({
+    //            ProductId: pid,
+    //            ProductName: name,
+    //            ProductPrice: price,
+    //            OldPrice: oldprice,
+    //            OfferBadge: OfferBadge,
+    //             ProductImageUrl: image,
+    //            ProductUrl: produrl,
+    //            ModifiedDate: today,
+    //            CreatedDate:null
+
+    //        });
+    //    });
+
+    //    debugger;
+
+    //    $.ajax({
+    //        type: "POST",
+    //        url: "http://localhost/Imeshma.API/Home/SaveProducts",
+    //        data: { products: products } ,
+    //        success: function (data) {
+    //            debugger;
+    //            RefreshItemStatusGrid();
+
+    //        }
+    //    });
+    //    debugger;
+    //});
+
+    $(window).bind("load", function () {
+        // code here
         var products = [];
         debugger;
         var today = new Date().toJSON().slice(0, 10);
 
         $("#product_list .row").each(function (i, item) {
-           
+
             var name = $(item).find("h2").html();
             var image = $(item).find("img").attr('src');
             var oldprice = $(item).find(".old_prices span").html();
@@ -23,10 +68,10 @@
                 ProductPrice: price,
                 OldPrice: oldprice,
                 OfferBadge: OfferBadge,
-                 ProductImageUrl: image,
+                ProductImageUrl: image,
                 ProductUrl: produrl,
                 ModifiedDate: today,
-                CreatedDate:null
+                CreatedDate: null
 
             });
         });
@@ -35,8 +80,8 @@
 
         $.ajax({
             type: "POST",
-            url: "/Home/SaveProducts",
-            data: { products: products } ,
+            url: "http://localhost/Imeshma.API/Home/SaveProducts",
+            data: { products: products },
             success: function (data) {
                 debugger;
                 RefreshItemStatusGrid();

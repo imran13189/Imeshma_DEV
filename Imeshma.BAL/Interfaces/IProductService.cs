@@ -9,7 +9,7 @@ namespace Imeshma.BAL.Interfaces
 {
     public interface IProductService
     {
-        List<Products> GetProductDetails();
+        List<Products> GetProductDetails(string search);
 
         void SaveProducts(List<Product> products);
     }

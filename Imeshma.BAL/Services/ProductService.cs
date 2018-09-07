@@ -18,9 +18,9 @@ namespace Imeshma.BAL.Services
         {
             _productRepo = new ProductRepo();
         }
-        public List<Products> GetProductDetails()
+        public List<Products> GetProductDetails(string search)
         {
-            return _productRepo.GetProductDetails();
+            return _productRepo.GetProductDetails(search);
         }
         public void SaveProducts(List<Product> products)
         {

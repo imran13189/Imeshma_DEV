@@ -15,7 +15,9 @@
     <Property Name="ProductImageUrl" Type="varchar(max)" />
     <Property Name="ProductUrl" Type="varchar(max)" />
   </EntityType>
-  <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="search" Type="varchar(max)" Mode="In" />
+  </Function>
   <EntityContainer Name="ImeshmaModelStoreContainer">
     <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

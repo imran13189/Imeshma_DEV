@@ -11,14 +11,14 @@ using Imeshma.Entity;
 
 namespace Imeshma.API.Controllers
 {
-    public class ProductController : ApiController
+    public class ProductAPIController : ApiController
     {
-        public List<Products> GetProductDetails()
+        public List<Products> GetProductDetails(string search)
         {
             try
             {
                 ProductService _rep = new ProductService();
-                return _rep.GetProductDetails();
+                return _rep.GetProductDetails(search);
                 //var data = request.data.OrderBy(x => x.UserId).Skip(request.start).Take(request.length);
                 //return Json(new
                 //{

@@ -20,7 +20,9 @@
           <Property Name="ProductImageUrl" Type="varchar(max)" />
           <Property Name="ProductUrl" Type="varchar(max)" />
         </EntityType>
-        <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="search" Type="varchar(max)" Mode="In" />
+        </Function>
         <EntityContainer Name="ImeshmaModelStoreContainer">
           <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
@@ -29,7 +31,9 @@
     <edmx:ConceptualModels>
       <Schema Namespace="ImeshmaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="ImeshmaEntities" annotation:LazyLoadingEnabled="true" >
-          <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)" />
+          <FunctionImport Name="GetProductDetails" ReturnType="Collection(ImeshmaModel.GetProductDetails_Result)" >
+            <Parameter Name="search" Mode="In" Type="String" />
+          </FunctionImport>
           <EntitySet Name="Products" EntityType="ImeshmaModel.Product" />
         </EntityContainer>
         <ComplexType Name="GetProductDetails_Result">
