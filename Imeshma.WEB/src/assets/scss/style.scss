@@ -857,7 +857,7 @@ img {
         z-index: 1;
         overflow: hidden;
         img {
-            /*width: 100%;*/
+            width: 100%;
             @include trans-duration(500ms);
         }
         .hover-img {
