@@ -11,7 +11,6 @@ E:\Projects\ImeshmaAngular\Imeshma.Entity\obj\Debug\Imeshma.Entity.dll
 E:\Projects\ImeshmaAngular\Imeshma.Entity\obj\Debug\Imeshma.Entity.pdb
 E:\Projects\Imeshma_DEV\Imeshma.Entity\bin\Debug\Imeshma.Entity.dll
 E:\Projects\Imeshma_DEV\Imeshma.Entity\bin\Debug\Imeshma.Entity.pdb
-E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Debug\Imeshma.Entity.csprojAssemblyReference.cache
 E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Debug\Imeshma.Entity.csproj.CoreCompileInputs.cache
 E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Debug\Imeshma.Entity.dll
 E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Debug\Imeshma.Entity.pdb

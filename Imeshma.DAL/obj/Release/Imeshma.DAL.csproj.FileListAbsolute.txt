@@ -10,3 +10,17 @@ E:\Imeshma\Imeshma.DAL\bin\Release\EntityFramework.SqlServer.xml
 E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.csprojResolveAssemblyReference.cache
 E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.dll
 E:\Imeshma\Imeshma.DAL\obj\Release\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\Imeshma.DAL.dll.config
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\EntityFramework.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\EntityFramework.SqlServer.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\Imeshma.Entity.pdb
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\EntityFramework.xml
+E:\Projects\Imeshma_DEV\Imeshma.DAL\bin\Release\EntityFramework.SqlServer.xml
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Release\Imeshma.DAL.csprojAssemblyReference.cache
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Release\Imeshma.DAL.csproj.CoreCompileInputs.cache
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Release\Imeshma.DAL.csproj.CopyComplete
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Release\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.DAL\obj\Release\Imeshma.DAL.pdb

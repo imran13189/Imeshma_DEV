@@ -17,7 +17,8 @@ namespace Imeshma.API.Controllers
         // GET: Products
         public ActionResult Index()
         {
-            return View(db.Products.ToList());
+            ImeshmaEntities _db = new ImeshmaEntities();
+            return View(_db.GetProductDetails(null));
         }
 
         // GET: Products/Details/5
@@ -38,6 +39,7 @@ namespace Imeshma.API.Controllers
         // GET: Products/Create
         public ActionResult Create()
         {
+            ViewBag.Categories = db.Categories.ToList();
             return View();
         }
 
@@ -46,7 +48,7 @@ namespace Imeshma.API.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,ProductId,ProductName,ProductPrice,OldPrice,OfferBadge,CreatedDate,ModifiedDate,ProductImageUrl,ProductUrl")] Product product)
+        public ActionResult Create([Bind(Include = "CategoryId,ID,ProductId,ProductName,ProductPrice,OldPrice,OfferBadge,CreatedDate,ModifiedDate,ProductImageUrl,ProductUrl")] Product product)
         {
             if (ModelState.IsValid)
             {

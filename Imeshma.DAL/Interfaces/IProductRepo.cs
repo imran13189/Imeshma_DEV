@@ -11,7 +11,8 @@ namespace Imeshma.DAL.Interfaces
         List<Products> GetProductDetails(string search);
 
         void SaveProducts(List<Product> products);
+        List<Category> GetCategories();
 
-      
+
     }
 }

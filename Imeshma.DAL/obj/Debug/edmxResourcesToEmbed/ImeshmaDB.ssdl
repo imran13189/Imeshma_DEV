@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ImeshmaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="varchar" MaxLength="100" />
+  </EntityType>
   <EntityType Name="Products">
     <Key>
       <PropertyRef Name="ID" />
@@ -14,11 +21,13 @@
     <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
     <Property Name="ProductImageUrl" Type="varchar(max)" />
     <Property Name="ProductUrl" Type="varchar(max)" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
   </EntityType>
   <Function Name="GetProductDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="search" Type="varchar(max)" Mode="In" />
   </Function>
   <EntityContainer Name="ImeshmaModelStoreContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

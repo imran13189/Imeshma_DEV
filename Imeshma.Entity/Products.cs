@@ -18,5 +18,6 @@ namespace Imeshma.Entity
         public System.DateTime ModifiedDate { get; set; }
         public string ProductImageUrl { get; set; }
         public string ProductUrl { get; set; }
+        public string CategoryName { get; set; }
     }
 }

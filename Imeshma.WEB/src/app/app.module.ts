@@ -12,6 +12,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     MainpageComponent,
     ShopComponent,
     ProductgridComponent,
-    ProductdetailsComponent
+    ProductdetailsComponent,
+    LoginComponent
   ],
     imports: [
       RouterModule,

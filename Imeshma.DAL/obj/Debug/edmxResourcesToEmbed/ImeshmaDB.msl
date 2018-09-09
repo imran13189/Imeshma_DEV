@@ -11,12 +11,26 @@
           <ScalarProperty Name="OfferBadge" ColumnName="OfferBadge" />
           <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
           <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductImageUrl" ColumnName="ProductImageUrl" />
+          <ScalarProperty Name="ProductUrl" ColumnName="ProductUrl" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ImeshmaModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="ImeshmaModel.Product">
         <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
           <ScalarProperty Name="ProductUrl" ColumnName="ProductUrl" />
           <ScalarProperty Name="ProductImageUrl" ColumnName="ProductImageUrl" />
           <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />

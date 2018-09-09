@@ -24,5 +24,6 @@ namespace Imeshma.DAL
         public System.DateTime ModifiedDate { get; set; }
         public string ProductImageUrl { get; set; }
         public string ProductUrl { get; set; }
+        public int CategoryId { get; set; }
     }
 }

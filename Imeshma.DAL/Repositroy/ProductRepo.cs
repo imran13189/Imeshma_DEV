@@ -74,5 +74,12 @@ namespace Imeshma.DAL.Repositroy
             _db.SaveChanges();
         }
 
+        public List<Category> GetCategories()
+        {
+            ImeshmaEntities _db = new ImeshmaEntities();
+             return   _db.Categories.ToList();
+
+        }
+
     }
 }

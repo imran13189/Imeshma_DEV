@@ -9,3 +9,17 @@ E:\Imeshma\Imeshma.BAL\bin\Release\EntityFramework.xml
 E:\Imeshma\Imeshma.BAL\obj\Release\Imeshma.BAL.csprojResolveAssemblyReference.cache
 E:\Imeshma\Imeshma.BAL\obj\Release\Imeshma.BAL.dll
 E:\Imeshma\Imeshma.BAL\obj\Release\Imeshma.BAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.BAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.BAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.DAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\EntityFramework.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.DAL.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.DAL.dll.config
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\Imeshma.Entity.pdb
+E:\Projects\Imeshma_DEV\Imeshma.BAL\bin\Release\EntityFramework.xml
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Release\Imeshma.BAL.csprojAssemblyReference.cache
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Release\Imeshma.BAL.csproj.CoreCompileInputs.cache
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Release\Imeshma.BAL.csproj.CopyComplete
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Release\Imeshma.BAL.dll
+E:\Projects\Imeshma_DEV\Imeshma.BAL\obj\Release\Imeshma.BAL.pdb

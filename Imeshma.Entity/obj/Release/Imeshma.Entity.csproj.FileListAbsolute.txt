@@ -1,0 +1,6 @@
+E:\Projects\Imeshma_DEV\Imeshma.Entity\bin\Release\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.Entity\bin\Release\Imeshma.Entity.pdb
+E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Release\Imeshma.Entity.csprojAssemblyReference.cache
+E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Release\Imeshma.Entity.csproj.CoreCompileInputs.cache
+E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Release\Imeshma.Entity.dll
+E:\Projects\Imeshma_DEV\Imeshma.Entity\obj\Release\Imeshma.Entity.pdb

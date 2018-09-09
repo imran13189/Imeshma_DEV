@@ -1,0 +1,90 @@
+﻿@model Imeshma.DAL.Product
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OldPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OldPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfferBadge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfferBadge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImageUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductImageUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductUrl)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
