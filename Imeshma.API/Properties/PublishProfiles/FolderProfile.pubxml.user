@@ -91,31 +91,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2017 13:15:20</publishTime>
     </File>
     <File Include="bin/Imeshma.API.dll">
-      <publishTime>09/09/2018 11:15:17</publishTime>
+      <publishTime>09/12/2018 00:53:03</publishTime>
     </File>
     <File Include="bin/Imeshma.API.pdb">
-      <publishTime>09/09/2018 11:15:17</publishTime>
+      <publishTime>09/12/2018 00:53:03</publishTime>
     </File>
     <File Include="bin/Imeshma.BAL.dll">
-      <publishTime>09/09/2018 11:15:16</publishTime>
+      <publishTime>09/12/2018 00:53:01</publishTime>
     </File>
     <File Include="bin/Imeshma.BAL.pdb">
-      <publishTime>09/09/2018 11:15:16</publishTime>
+      <publishTime>09/12/2018 00:53:01</publishTime>
     </File>
     <File Include="bin/Imeshma.DAL.dll">
-      <publishTime>09/09/2018 11:15:15</publishTime>
+      <publishTime>09/12/2018 00:53:01</publishTime>
     </File>
     <File Include="bin/Imeshma.DAL.dll.config">
       <publishTime>08/26/2018 00:59:43</publishTime>
     </File>
     <File Include="bin/Imeshma.DAL.pdb">
-      <publishTime>09/09/2018 11:15:15</publishTime>
+      <publishTime>09/12/2018 00:53:01</publishTime>
     </File>
     <File Include="bin/Imeshma.Entity.dll">
-      <publishTime>09/08/2018 03:49:03</publishTime>
+      <publishTime>09/12/2018 00:53:00</publishTime>
     </File>
     <File Include="bin/Imeshma.Entity.pdb">
-      <publishTime>09/08/2018 03:49:03</publishTime>
+      <publishTime>09/12/2018 00:53:00</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>06/28/2017 01:29:34</publishTime>
@@ -418,19 +418,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/08/2018 01:16:23</publishTime>
     </File>
     <File Include="Views/Products/Details.cshtml">
-      <publishTime>09/08/2018 01:16:24</publishTime>
+      <publishTime>09/09/2018 22:38:25</publishTime>
     </File>
     <File Include="Views/Products/Edit.cshtml">
       <publishTime>09/08/2018 01:16:25</publishTime>
     </File>
     <File Include="Views/Products/Index.cshtml">
-      <publishTime>09/08/2018 01:16:26</publishTime>
+      <publishTime>09/09/2018 22:55:51</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/26/2018 00:48:40</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/08/2018 01:25:37</publishTime>
+      <publishTime>09/09/2018 22:54:12</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/26/2018 00:48:40</publishTime>
@@ -439,7 +439,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/26/2018 00:48:40</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/09/2018 11:15:18</publishTime>
+      <publishTime>09/12/2018 00:53:21</publishTime>
     </File>
   </ItemGroup>
 </Project>

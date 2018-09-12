@@ -5,7 +5,7 @@
                 <div class="product-topbar d-flex align-items-center justify-content-between">
                     <!-- Total Products -->
                     <div class="total-products">
-                        <p><span>186</span> products found</p>
+                        <p><span>{{products.length}}</span> products found</p>
                     </div>
                     <!-- Sorting -->
                     <div class="product-sorting d-flex">
@@ -32,7 +32,7 @@
                 <div class="single-product-wrapper">
                   <!-- Product Image -->
 
-                  <div class="  ">
+                  <div class="product-img">
                     <img src="{{product.ProductImageUrl}}" alt="">
                     <!-- Hover Thumb -->
                     <img class="hover-img"  src="img/product-img/product-2.jpg" alt="">
@@ -59,7 +59,7 @@
                     <div class="hover-content">
                       <!-- Add to Cart -->
                       <div class="add-to-cart-btn">
-                        <a class="btn essence-btn">Add to Cart</a>
+                        <a class="btn essence-btn">Buy Now</a>
                       </div>
                     </div>
                   </div>
@@ -73,7 +73,7 @@
         </div>
     </div>
     <!-- Pagination -->
-    <nav aria-label="navigation">
+    <!--<nav aria-label="navigation">
         <ul class="pagination mt-50 mb-70">
             <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-left"></i></a></li>
             <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -83,4 +83,4 @@
             <li class="page-item"><a class="page-link" href="#">21</a></li>
             <li class="page-item"><a class="page-link" href="#"><i class="fa fa-angle-right"></i></a></li>
         </ul>
-    </nav>
+    </nav>-->

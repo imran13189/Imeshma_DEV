@@ -8,13 +8,18 @@
     <EntitySet Name="Products" EntityType="ImeshmaModel.Product" />
   </EntityContainer>
   <ComplexType Name="GetProductDetails_Result">
-    <Property Type="Int64" Name="ProductId" Nullable="false" />
+    <Property Type="Int64" Name="ProductId" Nullable="true" />
     <Property Type="String" Name="ProductName" Nullable="true" MaxLength="255" />
     <Property Type="String" Name="ProductPrice" Nullable="true" MaxLength="10" />
     <Property Type="String" Name="OldPrice" Nullable="true" MaxLength="100" />
     <Property Type="String" Name="OfferBadge" Nullable="true" MaxLength="50" />
-    <Property Type="DateTime" Name="CreatedDate" Nullable="true" Precision="23" />
-    <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="CreatedDate" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="ModifiedDate" Nullable="false" Precision="23" />
+    <Property Type="Int64" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ProductImageUrl" Nullable="true" />
+    <Property Type="String" Name="ProductUrl" Nullable="true" />
+    <Property Type="Int32" Name="CategoryId" Nullable="false" />
+    <Property Type="String" Name="CategoryName" Nullable="true" MaxLength="100" />
   </ComplexType>
   <EntityType Name="Category">
     <Key>

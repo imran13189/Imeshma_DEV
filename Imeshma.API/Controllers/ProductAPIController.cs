@@ -19,32 +19,11 @@ namespace Imeshma.API.Controllers
             {
                 ProductService _rep = new ProductService();
                 return _rep.GetProductDetails(search);
-                //var data = request.data.OrderBy(x => x.UserId).Skip(request.start).Take(request.length);
-                //return Json(new
-                //{
-                //    // this is what datatables wants sending back
-                //    //draw = request.draw,
-                //    //recordsTotal = request.data.Count,
-                //    //recordsFiltered = request.data.Count,
-                //    data =data,
-                //    //length = request.length,
-                //    //message = "success"
-
-                //});
+               
             }
             catch (Exception e)
             {
-                //return Json(new
-                //{
-                //    // this is what datatables wants sending back
-                //    draw = request.draw,
-                //    recordsTotal = request.data.Count,
-                //    recordsFiltered = request.data.Count,
-                //    data = request.data,
-                //    length = request.length,
-                //    message = "error",
-                //    exception = e.Message.ToString()
-                //});
+                
             }
             return null;
         }

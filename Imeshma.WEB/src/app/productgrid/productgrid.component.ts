@@ -21,11 +21,12 @@ export class ProductgridComponent implements OnInit {
             error => console.log(error)
           );
         }
+
       });
     }
 
     ngOnInit() {
-        //debugger;
+       
         //this.data.getProductDetails().subscribe(
         //    data => this.products = data
         //    ,
