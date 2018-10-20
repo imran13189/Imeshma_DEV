@@ -13,6 +13,36 @@ import { ShopComponent } from './shop/shop.component';
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
+import {
+  SocialLoginModule,
+  AuthServiceConfig,
+  GoogleLoginProvider,
+  FacebookLoginProvider,
+  LinkedinLoginProvider,
+} from "angular-6-social-login";
+import { ContactComponent } from './contact/contact.component';
+
+
+export function getAuthServiceConfigs() {
+  let config = new AuthServiceConfig(
+    [
+      {
+        id: FacebookLoginProvider.PROVIDER_ID,
+        provider: new FacebookLoginProvider("224344228440102")
+      },
+      {
+        id: GoogleLoginProvider.PROVIDER_ID,
+        provider: new GoogleLoginProvider("Your-Google-Client-Id")
+      },
+      {
+        id: LinkedinLoginProvider.PROVIDER_ID,
+        provider: new LinkedinLoginProvider("1098828800522-m2ig6bieilc3tpqvmlcpdvrpvn86q4ks.apps.googleusercontent.com")
+      },
+    ]
+  );
+  return config;
+}
+
 
 @NgModule({
   declarations: [
@@ -24,15 +54,24 @@ import { LoginComponent } from './login/login.component';
     ShopComponent,
     ProductgridComponent,
     ProductdetailsComponent,
-    LoginComponent
+    LoginComponent,
+    ContactComponent
   ],
     imports: [
       RouterModule,
     BrowserModule,
       AppRoutingModule,
-      HttpClientModule
+      HttpClientModule,
+      SocialLoginModule
   ],
-  providers: [],
+  providers: [{
+    provide: AuthServiceConfig,
+    useFactory: getAuthServiceConfigs
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
+

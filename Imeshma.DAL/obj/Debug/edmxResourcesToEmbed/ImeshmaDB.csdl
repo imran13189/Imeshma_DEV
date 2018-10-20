@@ -6,6 +6,7 @@
     </FunctionImport>
     <EntitySet Name="Categories" EntityType="ImeshmaModel.Category" />
     <EntitySet Name="Products" EntityType="ImeshmaModel.Product" />
+    <EntitySet Name="Users" EntityType="ImeshmaModel.User" />
   </EntityContainer>
   <ComplexType Name="GetProductDetails_Result">
     <Property Type="Int64" Name="ProductId" Nullable="true" />
@@ -43,5 +44,20 @@
     <Property Name="ProductImageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="ProductUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <Property Name="CategoryId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LoginVia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
   </EntityType>
 </Schema>

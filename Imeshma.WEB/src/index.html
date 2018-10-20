@@ -9,13 +9,8 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="assets/css/core-style.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
-
-  <!--<script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/classy-nav.min.js"></script>
-  <script src="assets/js/active.js"></script>-->
+  <title>One place to get offers on different items</title>
+  <meta name="Keywords" content="Online Shopping in India,online Shopping store,Online Shopping Site,Buy Online,Shop Online,Online Shopping,Imeshma" />
   <meta name="verify-admitad" content="58a42b5da8" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125415932-1"></script>
@@ -31,14 +26,17 @@
   <script>
     window.fbAsyncInit = function () {
       FB.init({
-        appId: '{your-app-id}',
-        cookie: true,
+        appId: '224344228440102',
         xfbml: true,
-        version: '{api-version}'
+        version: 'v3.1'
+      });
+      FB.AppEvents.logPageView();
+      FB.getLoginStatus(function (response) {
+        debugger;
+        statusChangeCallback(response);
       });
 
-      FB.AppEvents.logPageView();
-
+     
     };
 
     (function (d, s, id) {
@@ -49,14 +47,21 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 
-    FB.getLoginStatus(function (response) {
-      statusChangeCallback(response);
-    });
+    function checkLoginState() {
+      FB.getLoginStatus(function (response) {
+        debugger;
+        statusChangeCallback(response);
+      });
+    }
+
+ 
+   
   </script>
 
 
 </head>
 <body>
+  
   <app-root></app-root>
 </body>
 </html>
