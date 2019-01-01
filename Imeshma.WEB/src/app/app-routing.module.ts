@@ -4,6 +4,7 @@ import { MainpageComponent } from './mainpage/mainpage.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { ContactComponent } from './contact/contact.component';
 
 export function productCategory(url: UrlSegment[]) {
   return url.length === 1 && url[0].path.startsWith('mens-') ? ({ consumed: url }) : null;
@@ -15,6 +16,7 @@ const routes: Routes = [
         component: MainpageComponent
   },
   { path: 'productdetails', component: ProductdetailsComponent },
+  { path: 'contact', component: ContactComponent },
   {
       //matcher: productCategory,
     path:':category',

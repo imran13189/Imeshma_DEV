@@ -13,14 +13,17 @@ import { ShopComponent } from './shop/shop.component';
 import { ProductgridComponent } from './productgrid/productgrid.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
 import {
   SocialLoginModule,
   AuthServiceConfig,
   GoogleLoginProvider,
   FacebookLoginProvider,
-  LinkedinLoginProvider,
+  LinkedinLoginProvider
+ 
 } from "angular-6-social-login";
-import { ContactComponent } from './contact/contact.component';
+
 
 
 export function getAuthServiceConfigs() {
@@ -56,13 +59,15 @@ export function getAuthServiceConfigs() {
     ProductdetailsComponent,
     LoginComponent,
     ContactComponent
+
   ],
     imports: [
       RouterModule,
     BrowserModule,
       AppRoutingModule,
       HttpClientModule,
-      SocialLoginModule
+      SocialLoginModule,
+      NgxSpinnerModule
   ],
   providers: [{
     provide: AuthServiceConfig,
